@@ -1,0 +1,27 @@
+{
+  "name": "hello-jenkins",
+  "version": "1.0.0",
+  "description": "A simple app to test CI/CD with jenkins",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutugodfrey/hello-jenkins.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tutugodfrey/hello-jenkins/issues"
+  },
+  "homepage": "https://github.com/tutugodfrey/hello-jenkins#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "supertest": "^4.0.2"
+  }
+}
